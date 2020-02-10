@@ -23,4 +23,5 @@ let extraNumber2 = Number(prompt("Enter another number: "))
 let extraNumber3 = Number(prompt("Enter another number: "))
 myNumbers.push(extraNumber1, extraNumber2, extraNumber3)
 
+/* final alert */
 alert(`The last number in the array with adding 10 is ${extraNumber3 + 10}.`)
